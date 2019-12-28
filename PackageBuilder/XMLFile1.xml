@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DeploymentModel>Project</DeploymentModel>
+  <ProductVersion>15.0.1301.433</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <Database>
+    <Name>Integration Services Project1.database</Name>
+    <FullPath>Integration Services Project1.database</FullPath>
+  </Database>
+  <DataSources />
+  <DataSourceViews />
+  <DeploymentModelSpecificContent>
+    <Manifest>
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+        <SSIS:Properties>
+          <SSIS:Property SSIS:Name="ID">{db80be30-87b7-4b86-83db-52725fe18770}</SSIS:Property>
+          <SSIS:Property SSIS:Name="Name">Integration Services Project1</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionComments">
+          </SSIS:Property>
+          <SSIS:Property SSIS:Name="CreationDate">2019-12-22T17:59:23.0713798-08:00</SSIS:Property>
+          <SSIS:Property SSIS:Name="CreatorName">EXOMAIL-87976\mccor</SSIS:Property>
+          <SSIS:Property SSIS:Name="CreatorComputerName">EXOMAIL-87976</SSIS:Property>
+          <SSIS:Property SSIS:Name="Description">
+          </SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+EOyPBK3/UGAFNZGUoG2VQAAAAACAAAAAAAQZgAAAAEAACAAAABEKrQptynMVvZCsK+guhIt0sv6F9rfKi8B/78/nAW4FgAAAAAOgAAAAAIAACAAAAC8rWhHo+qdJqAnVxHANmGqSvZap+Or5TN2kO1KmHHSbpAAAACZdmAWmZ1YIcF7PVKU5uty2kkE17RQFYCinl4gWRPNGOxztRJ6OuySEvLv7MP6/tVnraUJU9RYDb266dY8JwGbM7U+uh8HTzq6qc19xf/EgKwKbW/u1iDEUKF6op0Xlz7t4c9swpqBdHZ7huD92RDJbcrs6hRJHoZEjjhVa0OrhrQm7mvaxTY9yMjR2KaeCTRAAAAAXl+mOT+xMiy6T4/adlPWomKxaspinOvihwD9E3UR9Vkz7AA0O0oReEoYt3HVyhrQjmdiWKcreIXNquXQA+0ywQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
+        </SSIS:Properties>
+        <SSIS:Packages>
+          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+        </SSIS:Packages>
+        <SSIS:ConnectionManagers />
+        <SSIS:DeploymentInfo>
+          <SSIS:ProjectConnectionParameters />
+          <SSIS:PackageInfo>
+            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{917D260C-06C9-4CE3-9FC2-A0D97E64AA2E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{4A19F809-9EC0-482E-97AE-4834AADD17DE}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+          </SSIS:PackageInfo>
+        </SSIS:DeploymentInfo>
+      </SSIS:Project>
+    </Manifest>
+  </DeploymentModelSpecificContent>
+  <ControlFlowParts />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings />
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings />
+        <DatabaseStorageLocations />
+        <TargetServerVersion>SQLServer2017</TargetServerVersion>
+        <AzureMode>false</AzureMode>
+        <LinkedAzureTenantId />
+        <LinkedAzureAccountId />
+        <LinkedAzureSSISIR />
+        <LinkedAzureStorage />
+        <RemoteExecutionFolder />
+        <ParameterConfigurationValues />
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>
