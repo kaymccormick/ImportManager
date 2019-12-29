@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="NavigationProvider.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.PowerShell.SDK" Version="7.0.0-rc.1" />
   </ItemGroup>
 

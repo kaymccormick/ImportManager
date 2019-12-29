@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowershellHost", "Powershel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerShellHostConsole", "PowerShellHostConsole\PowerShellHostConsole.csproj", "{96904AB0-3732-427F-869C-70D0BBC7C96B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMGrpcService", "IMGrpcService\IMGrpcService.csproj", "{E3117539-A3B3-4A86-A527-9882AAD9E897}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +157,26 @@ Global
 		{96904AB0-3732-427F-869C-70D0BBC7C96B}.Release|x64.Build.0 = Release|Any CPU
 		{96904AB0-3732-427F-869C-70D0BBC7C96B}.Release|x86.ActiveCfg = Release|Any CPU
 		{96904AB0-3732-427F-869C-70D0BBC7C96B}.Release|x86.Build.0 = Release|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Debug|ARM.Build.0 = Debug|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Debug|x64.Build.0 = Debug|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Debug|x86.Build.0 = Debug|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Release|ARM.Build.0 = Release|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Release|ARM64.Build.0 = Release|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Release|x64.ActiveCfg = Release|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Release|x64.Build.0 = Release|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Release|x86.ActiveCfg = Release|Any CPU
+		{E3117539-A3B3-4A86-A527-9882AAD9E897}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

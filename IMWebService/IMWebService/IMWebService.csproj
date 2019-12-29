@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>IMWebService</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>IMWebService</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.*" />
+    <PackageReference Include="ServiceStack" Version="5.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IMWebService.ServiceInterface\IMWebService.ServiceInterface.csproj" />
+    <ProjectReference Include="..\IMWebService.ServiceModel\IMWebService.ServiceModel.csproj" />
+  </ItemGroup>
+
+</Project>
