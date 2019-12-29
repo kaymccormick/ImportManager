@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfUi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfUi"
+        mc:Ignorable="d"
+        Loaded="MainWindow_OnLoaded"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel VerticalAlignment="Top" Margin="0,0,0,0">
+        <FlowDocumentScrollViewer Height="200">
+            <FlowDocument Name="FlowDocument"/>
+        </FlowDocumentScrollViewer>
+        <TextBox Height="40" TextWrapping="Wrap" Name="PSInput"/>
+    </StackPanel>
+</Window>
